@@ -11,3 +11,11 @@ class Solution {
         return e-st;
     }
 }
+
+/*
+another way        
+var x = s.trim().split(" ");
+int i = x.length-1;
+while(i>=0 && x[i] == " ") i--;
+return x[i].length();
+*/
